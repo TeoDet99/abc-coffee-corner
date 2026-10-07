@@ -2,7 +2,7 @@
 
 var SHOP = {
   name: "ABC Coffee Corner",
-  location: "Κάτω Νευροκόπι, Δράμας",
+  'location': '<i class="fa-solid fa-map-pin"></i> Κάτω Νευροκόπι, Δράμας',
   creator: "Detsios Th.",
   creatorUrl: "https://www.instagram.com/dets1os/"
 };
