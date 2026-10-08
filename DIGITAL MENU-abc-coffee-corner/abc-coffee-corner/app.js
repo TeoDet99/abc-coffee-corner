@@ -2,10 +2,25 @@
 
 var SHOP = {
   name: "ABC Coffee Corner",
-  'location': '<i class="fa-solid fa-map-pin"></i> Κάτω Νευροκόπι, Δράμας',
+  'location': "Κάτω Νευροκόπι, Δράμας",
   creator: "Detsios Th.",
   creatorUrl: "https://www.instagram.com/dets1os/"
 };
+
+function renderFooter() {
+  const footer = document.getElementById('footer');
+  
+  if (footer) {
+    footer.innerHTML = `
+      <h3>${SHOP.name}</h3>
+      <p><i class="fa-solid fa-map-pin"></i> ${SHOP.location}</p>
+      <p class="creator-info">Designed By <a href="${SHOP.creatorUrl}" target="_blank">${SHOP.creator}</a></p>
+    `;
+  }
+}
+
+// Καλεί τη συνάρτηση μόλις φορτώσει η σελίδα
+document.addEventListener('DOMContentLoaded', renderFooter);
 
 (function () {
   function get(k) { try { return sessionStorage.getItem(k); } catch (e) { return null; } }

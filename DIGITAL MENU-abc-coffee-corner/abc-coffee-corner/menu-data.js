@@ -6,17 +6,19 @@
 
 var MENU = {
   coffee: [
-    { section: "Espresso", items: [
-      { name: "Espresso",        dine: 2.2, take: 2.0 },
+    { section: "Ζεστοί", items: [
+      { name: "Espresso",        dine: 2.5, take: 2.0 },
       { name: "Espresso διπλός", dine: 2.8, take: 2.6 },
       { name: "Cappuccino",      dine: 3.2, take: 3.0 },
-      { name: "Latte",           dine: 3.4, take: 3.2 }
+      { name: "Cappuccino διπλός", dine: 3.6, take: 3.4 },
+      { name: "Latte",           dine: 3.4, take: 3.2 },
+      { name: "Nescafé",         dine: 3.8, take: 3.6 }
     ]},
     { section: "Κρύοι", items: [
       { name: "Freddo Espresso",   dine: 3.0, take: 2.8 },
       { name: "Freddo Cappuccino", dine: 3.4, take: 3.2 },
-      { name: "Φραπές",            dine: 3.0, take: 2.8 },
-      { name: "Ice Latte",         dine: 3.6, take: 3.4 }
+      { name: "Ice Latte",         dine: 3.6, take: 3.4 },
+      { name: "Φραπές",            dine: 3.0, take: 2.8 }
     ]},
     { section: "Παραδοσιακοί", items: [
       { name: "Ελληνικός",      dine: 2.5, take: 2.3 },
